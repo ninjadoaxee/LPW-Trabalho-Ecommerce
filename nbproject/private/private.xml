@@ -3,16 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/FORK/LPW-Ecommerce-Base/src/java/modelos/Usuario.java</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/FORK/LPW-Ecommerce-Base/src/java/AddProduto.java</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/FORK/LPW-Ecommerce-Base/web/produtos.jsp</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/FORK/LPW-Ecommerce-Base/src/java/db/Mock.java</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/FORK/LPW-Ecommerce-Base/src/java/Login.java</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/FORK/LPW-Ecommerce-Base/src/java/modelos/Produto.java</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/FORK/LPW-Ecommerce-Base/web/sobre.jsp</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/FORK/LPW-Ecommerce-Base/web/login.jsp</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/FORK/LPW-Ecommerce-Base/web/index.jsp</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/FORK/LPW-Ecommerce-Base/web/menu.jsp</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/06-11-2019/LPW-Trabalho-Ecommerce/web/sobre.jsp</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/06-11-2019/LPW-Trabalho-Ecommerce/web/index.jsp</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/06-11-2019/LPW-Trabalho-Ecommerce/src/java/Login.java</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/06-11-2019/LPW-Trabalho-Ecommerce/web/carrinho.jsp</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/06-11-2019/LPW-Trabalho-Ecommerce/src/java/AddCarrinho.java</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/06-11-2019/LPW-Trabalho-Ecommerce/src/java/db/Mock.java</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/06-11-2019/LPW-Trabalho-Ecommerce/web/produtos.jsp</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/06-11-2019/LPW-Trabalho-Ecommerce/web/login.jsp</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/06-11-2019/LPW-Trabalho-Ecommerce/web/menu.jsp</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/06-11-2019/LPW-Trabalho-Ecommerce/web/produto.jsp</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/06-11-2019/LPW-Trabalho-Ecommerce/src/java/modelos/Item.java</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/06-11-2019/LPW-Trabalho-Ecommerce/src/java/Carrinho.java</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/06-11-2019/LPW-Trabalho-Ecommerce/src/java/modelos/Produto.java</file>
         </group>
     </open-files>
 </project-private>

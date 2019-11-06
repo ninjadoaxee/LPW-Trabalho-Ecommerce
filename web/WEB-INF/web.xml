@@ -12,6 +12,10 @@
         <servlet-name>Login</servlet-name>
         <servlet-class>Login</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AddCarrinho</servlet-name>
+        <servlet-class>AddCarrinho</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Teste</servlet-name>
         <url-pattern>/Teste</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
         <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddCarrinho</servlet-name>
+        <url-pattern>/AddCarrinho</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
