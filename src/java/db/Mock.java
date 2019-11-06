@@ -49,47 +49,90 @@ public class Mock {
         if(Produto.lista.isEmpty()){
             lista = Produto.lista;
 
-            Produto caneta = new Produto();
-            caneta.setDescricao("Caneta Bic");
-            caneta.setPreco(1.5f);
-            caneta.setOferta(true);
-            caneta.setImagem("http://www.bavatos.com.br/content/images/thumbs/0001016_caneta-esf-cristal-azul-bic_580.jpeg");
-            lista.add(caneta);
+            Produto pregador = new Produto();
+            pregador.setDescricao("Pregador de Madeira - Rústico Clássico Gourmet");
+            pregador.setPreco(5.75f);
+            pregador.setOferta(true);
+            pregador.setImagem("https://http2.mlstatic.com/prendedor-de-roupa-madeira-sol-de-vero-kit-72-unidades-D_NQ_NP_765344-MLB28122713989_092018-F.jpg");
+            lista.add(pregador);
 
-            Produto caderno = new Produto();
-            caderno.setDescricao("Caderno");
-            caderno.setPreco(5.5f);
-            caderno.setOferta(true);
-            caderno.setImagem("https://cdnv2.moovin.com.br/marbig/imagens/produtos/det/caderno-espiral-capa-plastica-universitario-1-materia-neon-lilas-96-folhas-img-56136.jpg");
-            lista.add(caderno);
+            Produto pregador1 = new Produto();
+            pregador1.setDescricao("Kit com 10 pregadores de madeira clássicos gourmet.");
+            pregador1.setPreco(50f);
+            pregador1.setOferta(true);
+            pregador1.setImagem("https://http2.mlstatic.com/prendedores-pregador-de-roupa-madeira-artesanato-60-unidades-D_NQ_NP_683948-MLB26837487049_022018-F.jpg");
+            lista.add(pregador1);
 
-            Produto caneca = new Produto();
-            caneca.setDescricao("Caneca");
-            caneca.setPreco(10.0f);
-            caneca.setOferta(false);
-            caneca.setImagem("https://socd.vteximg.com.br/arquivos/ids/171137-1310-1310/caneca-magica-azul-marinho-fosco.jpg?v=636404720194970000");
-            lista.add(caneca);
+            Produto pregador2 = new Produto();
+            pregador2.setDescricao("Pregadores Gourmet Floridos kit com 2 unidades.");
+            pregador2.setPreco(75.99f);
+            pregador2.setOferta(true);
+            pregador2.setImagem("https://lojamor.vteximg.com.br/arquivos/ids/159802-400-400/006064-Prendedor-Roupa-Lovely-12pcs-Roxo-1.jpg?v=636363477083030000");
+            lista.add(pregador2);
 
-            Produto lapis = new Produto();
-            lapis.setDescricao("Lapis");
-            lapis.setPreco(1.0f);
-            lapis.setOferta(false);
-            lapis.setImagem("https://cdn.awsli.com.br/600x450/268/268329/produto/19914289/bcb456e23e.jpg");
-            lista.add(lapis);
+            Produto pregador3 = new Produto();
+            pregador3.setDescricao("Pregador do exército - Pague 1 leve 2");
+            pregador3.setPreco(25.0f);
+            pregador3.setOferta(true);
+            pregador3.setImagem("https://cdn.leroymerlin.com.br/products/pregador_roupa_12_un_86615991_268e_300x300.jpg");
+            lista.add(pregador3);
 
-            Produto borracha = new Produto();
-            borracha.setDescricao("Borracha");
-            borracha.setPreco(1.5f);
-            borracha.setOferta(false);
-            borracha.setImagem("https://images.tcdn.com.br/img/img_prod/698958/borracha_faber_castell_tons_pastel_fc_max_191_1_20190625134314.jpg");
-            lista.add(borracha);
+            Produto pregador4 = new Produto();
+            pregador4.setDescricao("Pregador Morangos do Campo");
+            pregador4.setPreco(47.90f);
+            pregador4.setOferta(true);
+            pregador4.setImagem("https://www.brindesdemais.com.br/fotos/produtos/zoom/2633/Prendedor-de-embalagem-PDD.jpg");
+            lista.add(pregador4);
 
-            Produto sulfite = new Produto();
-            sulfite.setDescricao("Folha Sulfite");
-            sulfite.setPreco(5.0f);
-            sulfite.setOferta(true);
-            sulfite.setImagem("https://http2.mlstatic.com/papel-sulfite-folha-a4-75-grs-pacote-c-500-unidades-D_NQ_NP_891083-MLB26996539385_032018-F.jpg");
-            lista.add(sulfite);
+            Produto pregador5 = new Produto();
+            pregador5.setDescricao("Kit com 6 pregadores coloridos - Edição Deluxe.");
+            pregador5.setPreco(120f);
+            pregador5.setOferta(true);
+            pregador5.setImagem("http://d1a87ut6isnmlv.cloudfront.net/thumb-img//m-MaG-KAvcIFMeEvdAekr1YtmAQ=/495x914:2582x3273/328x369/produtos/cd/87/P338.jpg");
+            lista.add(pregador5);
+
+            Produto pregador6 = new Produto();
+            pregador6.setDescricao("Pregador Crimson Web.");
+            pregador6.setPreco(350f);
+            pregador6.setOferta(true);
+            pregador6.setImagem("https://doural.vteximg.com.br/arquivos/ids/177541-1000-1000/0411062-PRENDEDOR-LUXO.jpg?v=636138645843930000");
+            lista.add(pregador6);
+
+            Produto pregador7 = new Produto();
+            pregador7.setDescricao("Pregador Avião da 2a Guerra Mundial - Edição de Colecionador");
+            pregador7.setPreco(1200f);
+            pregador7.setOferta(true);
+            pregador7.setImagem("https://i.pinimg.com/originals/f3/8f/db/f38fdb12f007d14f634ae02c64a65c41.jpg");
+            lista.add(pregador7);
+
+            Produto pregador8 = new Produto();
+            pregador8.setDescricao("Peggy o pregador inteligente.");
+            pregador8.setPreco(3450f);
+            pregador8.setOferta(true);
+            pregador8.setImagem("https://img.olhardigital.com.br/uploads/acervo_imagens/2016/04/r16x9/20160420075501_1200_675_-_peggy.jpg");
+            lista.add(pregador8);
+
+            Produto pregador9 = new Produto();
+            pregador9.setDescricao("Pregador de Roupas Bombril X David Bowie");
+            pregador9.setPreco(400f);
+            pregador9.setOferta(true);
+            pregador9.setImagem("https://www.extra-imagens.com.br/UtilidadesDomesticas/lavanderiaebanheiro/acessoriosdomesticos/5438234/781123425/Kit-de-Prendedores-de-Roupa---Medio-Verde-62x2x5cm-5438234.jpg");
+            lista.add(pregador9);
+
+            Produto pregador10 = new Produto();
+            pregador10.setDescricao("Pregador Halloween Bat.");
+            pregador10.setPreco(37.50f);
+            pregador10.setOferta(true);
+            pregador10.setImagem("http://i1.wp.com/newserrado.com/wp-content/uploads/2012/09/Vespertilium-clothes-pegs-Art-Lebedev-Studio-Halloween.jpeg?resize=360%2C400");
+            lista.add(pregador10);
+
+            Produto pregador11 = new Produto();
+            pregador11.setDescricao("Kit 3 Pregadores do Beatles");
+            pregador11.setPreco(150f);
+            pregador11.setOferta(true);
+            pregador11.setImagem("https://thumbs.dreamstime.com/b/grampos-do-pregador-de-roupa-isolados-no-fundo-branco-124046883.jpg");
+            lista.add(pregador11);
+
         }
     }
 
