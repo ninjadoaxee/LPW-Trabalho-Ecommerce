@@ -4,23 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 18/09/2019, 17:49:06
-    Author     : gutol
+    Created on : 06/11/2019, 18:33:23
+    Author     : Desenvolvimento
 */
 
-.ofertas{
-    background-color: lightblue;
-    text-align: center;
-}
-
-.ofertas div{
-    display: inline-block;
-    background-color: lightskyblue;
-    width: 30%;
-    text-align: left;
-}
-
-.ofertas div img{
-    height: 100px;
-    padding: 5px;
-}
