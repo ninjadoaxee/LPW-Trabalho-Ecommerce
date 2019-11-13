@@ -51,16 +51,17 @@
                     </tr>
                 </thead>
                 <tbody>
-            <%
-               Produto p = new Produto();
-                for(int i=0; i<p.getLista().size(); i++){
 
-                    p.getLista().get(i);
+                   <%
+
+                for(int i=0; i<Produto.lista.size(); i++){
+
                     out.println("<tr>");
                     out.println("<td> "+ (i+1) +" </td>");
-                    out.println("<td> "+ p.getDescricao() +" </td>");
-                    out.println("<td> "+ p.getPreco() +" </td>");
+                    out.println("<td> <a href=\"produto.jsp?id="+i+ "\">"+ Produto.lista.get(i).getDescricao()+" </a></td> ");
+                    out.println("<td> "+ Produto.lista.get(i).getPreco()+" </td>");
                     out.println("</tr>");
+
                 }
 
             %>

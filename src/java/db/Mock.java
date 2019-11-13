@@ -129,9 +129,10 @@ public class Mock {
             Produto pregador11 = new Produto();
             pregador11.setDescricao("Kit 3 Pregadores do Beatles");
             pregador11.setPreco(150f);
-            pregador11.setOferta(true);
+            pregador11.setOferta(false);
             pregador11.setImagem("https://thumbs.dreamstime.com/b/grampos-do-pregador-de-roupa-isolados-no-fundo-branco-124046883.jpg");
             lista.add(pregador11);
+
 
         }
     }

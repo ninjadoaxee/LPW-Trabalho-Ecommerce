@@ -20,7 +20,6 @@
         </jsp:include>
 
         <div class="container">
-            <h1>Hello World!</h1>
 
             <h2>Produto:</h2>
 

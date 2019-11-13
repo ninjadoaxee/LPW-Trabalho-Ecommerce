@@ -26,7 +26,6 @@
          <li <%=c_ofertas%> ><a href="index.jsp">Ofertas</a></li>
          <li <%=c_produtos%> ><a href="produtos.jsp">Produtos</a></li>
          <li <%=c_sobre%> ><a href="sobre.jsp">Sobre</a></li>
-
      </ul>
 
      <ul class="nav navbar-nav navbar-right">

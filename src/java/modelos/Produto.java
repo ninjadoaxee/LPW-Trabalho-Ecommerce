@@ -42,12 +42,12 @@ public class Produto {
         this.preco = preco;
     }
 
-    public ArrayList<Produto> getLista() {
-        return lista;
+   public void setLista(ArrayList<Produto> lista) {
+        Produto.lista = lista;
     }
 
-    public void setLista(ArrayList<Produto> lista) {
-        Produto.lista = lista;
+    public ArrayList<Produto> getLista() {
+        return lista;
     }
 
     public boolean getOferta() {
