@@ -15,7 +15,7 @@
    </head>
    <body>
        <jsp:include page="menu.jsp">
-            <jsp:param name="item" value="produtos" />
+            <jsp:param name="item" value="carrinho" />
         </jsp:include>
 
       <%

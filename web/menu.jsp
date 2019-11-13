@@ -15,6 +15,7 @@
     String c_ofertas = item.equals("ofertas")? active : "";
     String c_produtos = item.equals("produtos")? active : "";
     String c_sobre = item.equals("sobre")? active : "";
+    String c_carrinho = item.equals("carrinho")? active : "";
 %>
 
 <nav class="navbar navbar-inverse">
@@ -26,6 +27,8 @@
          <li <%=c_ofertas%> ><a href="index.jsp">Ofertas</a></li>
          <li <%=c_produtos%> ><a href="produtos.jsp">Produtos</a></li>
          <li <%=c_sobre%> ><a href="sobre.jsp">Sobre</a></li>
+         <li <%=c_carrinho%> > <a href="carrinho.jsp"> <span class="glyphicon glyphicon-shopping-cart"></span> </a> </li>
+
      </ul>
 
      <ul class="nav navbar-nav navbar-right">
