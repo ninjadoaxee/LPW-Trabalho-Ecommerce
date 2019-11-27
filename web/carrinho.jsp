@@ -4,6 +4,8 @@
     Author     : Desenvolvimento
 --%>
 
+<%@page import="java.util.ArrayList"%>
+<%@page import="modelos.Item"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -18,21 +20,46 @@
             <jsp:param name="item" value="carrinho" />
         </jsp:include>
 
-      <%
-         boolean logado = false;
+      <table class="table">
+            <thead>
+            <tr>
+               <th>ITEM</th>
+               <th>NOME</th>
+               <th>QUANTIDADE</th>
+               <th>PREÇO</th>
+            </tr>
+            </thead>
+          <tbody>
+             <%
 
-         if(session != null &&
-                 session.getAttribute("logado") != null){
-             logado = (boolean)session.getAttribute("logado");
-         }
 
-         out.print(logado);
+                  ArrayList<Item> carrinho;
+                  //Se o carrinho vazio
+                  if(session.getAttribute("carrinho")!=null){
+                     carrinho = (ArrayList<Item>)session.getAttribute("carrinho");
 
-         if( !logado ){
-              out.print("Você Não está Logado !");
-          }else{
-               out.print("Você está Logado !");
-         }
+
+
+                        for(int i=0;i<carrinho.size();i++){
+
+                            out.println("<tr>");
+                            out.println("<td> "+ (i+1) +" </td>");
+                            out.println("<td> "+ carrinho.get(i).getDescricao() +" </td>");
+                            out.println("<td> "+ carrinho.get(i).getQuantidade() +" </td>");
+                            out.println("<td> "+ ((carrinho.get(i).getPreco())*(carrinho.get(i).getQuantidade())) +" </td>");
+                            out.println("</tr>");
+
+                        }
+
+
+                  }
+
             %>
+          </tbody>
+
+
+      </table>
+
+
    </body>
 </html>

@@ -3,15 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE%2013-11/LPW-Trabalho-Ecommerce/web/produtos.jsp</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE%2013-11/LPW-Trabalho-Ecommerce/src/java/db/Mock.java</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE%2013-11/LPW-Trabalho-Ecommerce/web/produto.jsp</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE%2013-11/LPW-Trabalho-Ecommerce/src/java/AddCarrinho.java</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE%2013-11/LPW-Trabalho-Ecommerce/web/carrinho.jsp</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE%2013-11/LPW-Trabalho-Ecommerce/web/index.jsp</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE%2013-11/LPW-Trabalho-Ecommerce/src/java/AddProduto.java</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE%2013-11/LPW-Trabalho-Ecommerce/src/java/modelos/Produto.java</file>
-            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE%2013-11/LPW-Trabalho-Ecommerce/web/menu.jsp</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE/LPW-Trabalho-Ecommerce/web/produtos.jsp</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE/LPW-Trabalho-Ecommerce/src/java/db/Mock.java</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE/LPW-Trabalho-Ecommerce/src/java/modelos/Produto.java</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE/LPW-Trabalho-Ecommerce/web/produto.jsp</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE/LPW-Trabalho-Ecommerce/src/java/modelos/Item.java</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE/LPW-Trabalho-Ecommerce/src/java/Carrinho.java</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE/LPW-Trabalho-Ecommerce/src/java/AddCarrinho.java</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE/LPW-Trabalho-Ecommerce/src/java/AddProduto.java</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE/LPW-Trabalho-Ecommerce/web/carrinho.jsp</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE/LPW-Trabalho-Ecommerce/src/java/modelos/Usuario.java</file>
+            <file>file:/C:/Users/Desenvolvimento/Desktop/ECOMMERCE/LPW-Trabalho-Ecommerce/web/index.jsp</file>
         </group>
     </open-files>
 </project-private>

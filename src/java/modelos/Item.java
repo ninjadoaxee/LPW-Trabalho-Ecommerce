@@ -12,6 +12,16 @@ package modelos;
 public class Item extends Produto {
    private int quantidade;
 
+   public Item(Produto a, int quantidade){
+      super();
+      
+      this.quantidade = quantidade;
+      this.setDescricao(a.getDescricao());
+      this.setPreco(a.getPreco());
+      this.setOferta(a.getOferta());
+      this.setImagem(a.getImagem());
+   }
+
    public Item(){
       super();
    }
@@ -23,5 +33,4 @@ public class Item extends Produto {
    public void setQuantidade(int quantidade) {
       this.quantidade = quantidade;
    }
-
 }

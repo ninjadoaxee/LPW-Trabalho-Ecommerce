@@ -39,8 +39,8 @@ public class AddCarrinho extends HttpServlet {
 
       //Busco as informações do produto que eu quero
       //As inforamações estão em Produto.lista
-      Item p = (Item)Produto.lista.get(id);
-      p.setQuantidade(quantidade);
+      Produto teste = Produto.lista.get(id);
+      Item p = new Item(teste, quantidade);
 
       HttpSession session = request.getSession();
 
@@ -54,6 +54,8 @@ public class AddCarrinho extends HttpServlet {
 
       carrinho.add(p);
       session.setAttribute("carrinho", carrinho);
+
+      response.sendRedirect("carrinho.jsp");
 
    }
 
