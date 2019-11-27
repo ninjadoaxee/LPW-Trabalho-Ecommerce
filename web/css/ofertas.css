@@ -9,13 +9,13 @@ and open the template in the editor.
 */
 
 .ofertas{
-    background-color: lightblue;
+   /* background-color: lightsalmon; */
     text-align: center;
 }
 
 .ofertas div{
     display: inline-block;
-    background-color: lightskyblue;
+    background-color: #6ac0eb;
     width: 30%;
     text-align: left;
 }
@@ -29,7 +29,7 @@ and open the template in the editor.
 }
 
 .ofertas div h5{
-    background-color: #ffd633;
+    background-color: #ffa33b;
     text-align: center;
     font-size: 24px;
     font-family: "Roboto", Roboto, sans-serif;

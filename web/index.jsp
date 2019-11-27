@@ -11,7 +11,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>.clothespin</title>
+        <title>Ofertas da Loja</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/ofertas.css">
 
@@ -36,7 +36,7 @@
                   <div>
                      <h5>${p.descricao}</h5>
                      <p>R$ ${p.preco}</p>
-                     <img src="${p.imagem}"> </img>
+                     <img link="pagprod.jsp" src="${p.imagem}"> </img>
                   </div>
                   </c:if>
                </c:forEach>
