@@ -38,7 +38,6 @@
 
 
             <div class="ofertas">
-<<<<<<< HEAD
                 <h1>Ofertas da Loja!</h1>
 
                <%  for(int i=inicio; i<fim; i++){ %>
@@ -62,7 +61,7 @@
 
   </ul>
 </nav>
-=======
+
                <c:forEach var="p" items="${Produtos.lista}">
                   <c:if test="${p.oferta}">
                   <div>
@@ -72,7 +71,7 @@
                   </div>
                   </c:if>
                </c:forEach>
->>>>>>> 963c4d1a67939372901875e4b0187101853803ec
+
             </div>
 
 
