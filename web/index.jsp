@@ -11,7 +11,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>.clothespin</title>
+        <title>Ofertas da Loja</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/ofertas.css">
 
@@ -38,6 +38,7 @@
 
 
             <div class="ofertas">
+<<<<<<< HEAD
                 <h1>Ofertas da Loja!</h1>
 
                <%  for(int i=inicio; i<fim; i++){ %>
@@ -61,6 +62,17 @@
 
   </ul>
 </nav>
+=======
+               <c:forEach var="p" items="${Produtos.lista}">
+                  <c:if test="${p.oferta}">
+                  <div>
+                     <h5>${p.descricao}</h5>
+                     <p>R$ ${p.preco}</p>
+                     <img link="pagprod.jsp" src="${p.imagem}"> </img>
+                  </div>
+                  </c:if>
+               </c:forEach>
+>>>>>>> 963c4d1a67939372901875e4b0187101853803ec
             </div>
 
 
