@@ -11,7 +11,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Detalhes de Produto</title>
+        <title>Detalhes do Produto</title>
+        <link href="css/produto.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
     <body>
@@ -20,23 +21,24 @@
         </jsp:include>
 
         <div class="container">
-
+            <div class="produto">
             <h2>Produto:</h2>
 
             <%
                 int id =  Integer.parseInt(request.getParameter("id"));
                 Produto p = Produto.lista.get(id);
-                out.println(p.getDescricao());
             %>
-
-
+            <h3><%=p.getDescricao()%></h3>
+            <img src="<%=p.getImagem()%>"> </img>
+            </div>
+        
             <form action="AddCarrinho" method="post">
                 <label>Quantidade</label><input name="quantidade" >
                 <input name="id" value="<%=id%>" type="hidden">
 
                 <button type="submit">OK</button>
             </form>
-
+            
         </div>
 
     </body>

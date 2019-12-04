@@ -9,7 +9,6 @@ and open the template in the editor.
 */
 
 .ofertas{
-   /* background-color: lightsalmon; */
     text-align: center;
 }
 
@@ -17,19 +16,20 @@ and open the template in the editor.
     display: inline-block;
     background-color: #6ac0eb;
     width: 30%;
-    text-align: left;
+    text-align: right;
 }
 
 .ofertas div img{
    display: block;
    margin-left: auto;
    margin-right: auto;
-    height: 100px;
-    padding: 5px;
+   height: 100px;
+   padding: 5px;
 }
 
 .ofertas div h5{
     background-color: #ffa33b;
+    color: black;
     text-align: center;
     font-size: 24px;
     font-family: "Roboto", Roboto, sans-serif;
@@ -39,4 +39,5 @@ and open the template in the editor.
 .ofertas div p{
    font-family: "Comic Sans MS", cursive, sans-serif;
    font-size: 15px;
+   text-align: right;
 }

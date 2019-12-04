@@ -12,9 +12,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Ofertas da Loja</title>
+        <link href="css/ofertas.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/ofertas.css">
-
+ 
     </head>
     <body>
 
@@ -45,39 +45,25 @@
                      <% Produto p = Produto.lista.get(i); %>
                      <% if(p.getOferta()){ %>
                      <div>
-                        <h5><%=p.getDescricao()%></h5>
-                        <p>R$ <%=p.getPreco()%></p>
-                        <img src="<%=p.getImagem()%>"> </img>
-                     </div>
+                     <%    
+                      out.println("<h5> <a href=\"produto.jsp?id="+i+ "\">"+ Produto.lista.get(i).getDescricao()+" </a></h5> ");
+                      %>  
+                      <p> R$ <%=p.getPreco()%> </p>
+                      <img src="<%=p.getImagem()%>"> </img>
+                             
+                      </div>
                      <% } %>
                   <% } %>
                <%}%>
 
             <nav aria-label="index.jsp">
-  <ul class="pagination">
+            <ul class="pagination">
 
-    <li class="page-item"><a class="page-link" href="?inicio=0&fim=6">1</a></li>
-    <li class="page-item"><a class="page-link" href="?inicio=6&fim=13">2</a></li>
+                <li class="page-item"><a class="page-link" href="?inicio=0&fim=6">1</a></li>
+             <li class="page-item"><a class="page-link" href="?inicio=6&fim=13">2</a></li>
 
-  </ul>
-</nav>
-
-               <c:forEach var="p" items="${Produtos.lista}">
-                  <c:if test="${p.oferta}">
-                  <div>
-                     <h5>${p.descricao}</h5>
-                     <p>R$ ${p.preco}</p>
-                     <img link="pagprod.jsp" src="${p.imagem}"> </img>
-                  </div>
-                  </c:if>
-               </c:forEach>
-
-            </div>
-
-
-
-
-
+            </ul>
+        </nav>
         </div>
         <script src="js/bootstrap.min.js"></script>
     </body>

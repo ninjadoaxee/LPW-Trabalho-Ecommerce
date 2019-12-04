@@ -9,15 +9,25 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Sobre Minha Loja</title>
+        <title>Sobre a Loja</title>
+        <link href="css/sobre.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/sobre.css" />
         <link rel="stylesheet" href="css/bootstrap.min.css">
+
     </head>
     <body>
         
         <jsp:include page="menu.jsp">
             <jsp:param name="item" value="sobre" />
         </jsp:include>
-        
-        <h1>Hello World!</h1>
+        <div class="container">
+        <div class="sobre">
+            
+            <h1> Quem somos? </h1>
+            <h3> Nós da E-Prendedores nos expecializamos na venda de prendedores de altissima qualidade. Garantimos que o consumidor estará satisfeito com qualquer compra realizada em nosso site, pois possuimos apenas os melhores produtos em nossos estoques.</h3>
+            
+            
+        </div>
+        </div>
     </body>
 </html>
