@@ -20,8 +20,8 @@
         </jsp:include>
 
         <div class="container">
-            <h1>Produtos da Minha Loja!</h1>
-
+            <h1 style="text-align: center;">Produtos</h1>
+           
             <%
                 boolean logado = false;
 
@@ -32,24 +32,27 @@
 
                 if(logado){
             %>
-
+           <div id="inserirProduto">
             <form action="AddProduto" method="post">
                 Descrição: <input name="descricao">
                 Preço: <input name="preco">
 
                 <button type="submit">OK</button>
             </form>
-
+           </div>
+            
             <% } %>
-
+            <div id="tabelaProdutos"class="container">
             <table class="table table-striped">
                 <thead>
                     <tr>
                         <th>#</th>
+                        <th>Preview</th>
                         <th>Descrição</th>
                         <th>Valor</th>
                     </tr>
                 </thead>
+                
                 <tbody>
 
                    <%
@@ -58,8 +61,9 @@
 
                     out.println("<tr>");
                     out.println("<td> "+ (i+1) +" </td>");
+                    out.println("<td style=\"width: 120px\"> <img class='rounded float-left img-thumbnail' src="+( Produto.lista.get(i).getImagem() )+" </td> ");
                     out.println("<td> <a href=\"produto.jsp?id="+i+ "\">"+ Produto.lista.get(i).getDescricao()+" </a></td> ");
-                    out.println("<td> "+ Produto.lista.get(i).getPreco()+" </td>");
+                    out.println("<td> R$ "+ Produto.lista.get(i).getPreco()+" </td>");
                     out.println("</tr>");
 
                 }
@@ -67,6 +71,7 @@
             %>
                 </tbody>
             </table>
+                </div>
 
         </div>
         <script src="js/bootstrap.min.js"></script>
