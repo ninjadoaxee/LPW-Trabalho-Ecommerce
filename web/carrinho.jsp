@@ -20,6 +20,9 @@
             <jsp:param name="item" value="carrinho" />
         </jsp:include>
 
+       <h1>
+           CARRINHO
+       </h1>
       <table class="table">
             <thead>
             <tr>
@@ -30,6 +33,7 @@
             </tr>
             </thead>
           <tbody>
+          <div id="carrinho"> 
              <%
 
 
@@ -46,7 +50,7 @@
                             out.println("<td> "+ (i+1) +" </td>");
                             out.println("<td> "+ carrinho.get(i).getDescricao() +" </td>");
                             out.println("<td> "+ carrinho.get(i).getQuantidade() +" </td>");
-                            out.println("<td> "+ ((carrinho.get(i).getPreco())*(carrinho.get(i).getQuantidade())) +" </td>");
+                            out.println("<td> R$ "+ ((carrinho.get(i).getPreco())*(carrinho.get(i).getQuantidade())) +" </td>");
                             out.println("</tr>");
 
                         }
@@ -55,11 +59,14 @@
                   }
 
             %>
+            </div>
           </tbody>
 
 
       </table>
 
-
+            <div id="botaoConfirmar" >
+                 <button type="button" class="btn btn-dark">Confirmar Compra (Em Manutenção!)</button>
+            </div>
    </body>
 </html>

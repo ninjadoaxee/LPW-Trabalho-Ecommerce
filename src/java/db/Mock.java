@@ -67,7 +67,7 @@ public class Mock {
             pregador2.setDescricao("Pregadores Gourmet Floridos kit com 2 unidades.");
             pregador2.setPreco(75.99f);
             pregador2.setOferta(true);
-            pregador2.setImagem("https://lojamor.vteximg.com.br/arquivos/ids/159802-400-400/006064-Prendedor-Roupa-Lovely-12pcs-Roxo-1.jpg?v=636363477083030000");
+            pregador2.setImagem("https://lojamor.vteximg.com.br/arquivos/ids/159802-400-400/006064-Prendedor-Roupa-Lovely-12pcs-Roxo-1.jpg");
             lista.add(pregador2);
 
             Produto pregador3 = new Produto();
@@ -95,7 +95,7 @@ public class Mock {
             pregador6.setDescricao("Pregador Crimson Web.");
             pregador6.setPreco(350f);
             pregador6.setOferta(true);
-            pregador6.setImagem("https://doural.vteximg.com.br/arquivos/ids/177541-1000-1000/0411062-PRENDEDOR-LUXO.jpg?v=636138645843930000");
+            pregador6.setImagem("https://doural.vteximg.com.br/arquivos/ids/177541-1000-1000/0411062-PRENDEDOR-LUXO.jpg");
             lista.add(pregador6);
 
             Produto pregador7 = new Produto();
@@ -123,7 +123,7 @@ public class Mock {
             pregador10.setDescricao("Pregador Halloween Bat.");
             pregador10.setPreco(37.50f);
             pregador10.setOferta(true);
-            pregador10.setImagem("http://i1.wp.com/newserrado.com/wp-content/uploads/2012/09/Vespertilium-clothes-pegs-Art-Lebedev-Studio-Halloween.jpeg?resize=360%2C400");
+            pregador10.setImagem("http://i1.wp.com/newserrado.com/wp-content/uploads/2012/09/Vespertilium-clothes-pegs-Art-Lebedev-Studio-Halloween.jpeg");
             lista.add(pregador10);
 
             Produto pregador11 = new Produto();
@@ -135,6 +135,7 @@ public class Mock {
 
 
         }
+        
     }
 
 }
